@@ -32,10 +32,4 @@ public class AppTest
      * Rigourous Test :-)
      */
 
-    Metier metier ;
-    public void testApp()
-    {
-	   metier=new Metier(new Affichaage());
-	   metier.intruction();
-    }
 }
