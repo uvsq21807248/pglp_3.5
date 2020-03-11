@@ -15,11 +15,14 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
 
+    UseClassMetier metier ;
+    
+     public void testApp()
+     {
+ 	   metier=new UseClassMetier(new Affichaage());
+ 	   metier.intruction();
+     }
     /**
      * @return the suite of tests being tested
      */
